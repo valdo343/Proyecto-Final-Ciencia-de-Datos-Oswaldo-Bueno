@@ -1,19 +1,19 @@
-# Proyecto Final - Ciencia de Datos
+# Breast Cancer Bone Metastasis Prediction
 
 ## 📋 Descripción del Proyecto
 
-Este repositorio contiene el proyecto final del curso de Ciencia de Datos, desarrollado por **Oswaldo Bueno**. El proyecto se enfoca en el análisis de datos médicos relacionados con recaídas óseas en pacientes con cáncer de mama.
+Este proyecto presenta un pipeline de aprendizaje automático para predecir la aparición de metástasis ósea en pacientes con cáncer de mama a partir de datos de expresión genética obtenidos del repositorio GEO. El flujo de trabajo incluye preprocesamiento de datos, reducción de dimensionalidad mediante PCA, entrenamiento y comparación de distintos modelos de clasificación, y evaluación de su desempeño mediante validación cruzada y métricas de clasificación.
 
 ## 🎯 Objetivos
 
-- Análisis de datos de recaídas óseas en pacientes
-- Implementación de modelos predictivos
-- Generación de reportes y visualizaciones
+- Analizar datos de expresión genética de pacientes con cáncer de mama.
+- Desarrollar modelos de clasificación para predecir metástasis ósea.
+- Comparar el desempeño de distintos algoritmos de aprendizaje automático mediante métricas de clasificación y validación cruzada.
 
 ## 📁 Estructura del Proyecto
 
 ```
-Proyecto-Final-Ciencia-de-Datos-Oswaldo-Bueno/
+Breast-Cancer-Bone-Metastasis-Prediction/
 │
 ├── data/                          # Directorio de datos
 │   └── [archivos de datos .txt.gz]
@@ -41,21 +41,13 @@ El proyecto utiliza datos de perfiles de expresión genética con información s
 
 ## 📈 Resultados Clave
 
-- Análisis de distribución de recaídas óseas
-- Modelos predictivos para identificar factores de riesgo
-- Visualizaciones de los patrones encontrados
-- Reporte estadístico completo
+- Reducción de más de 22,000 variables mediante Análisis de Componentes Principales (PCA).
+- Comparación de seis algoritmos de clasificación supervisada.
+- El modelo SVM con kernel RBF obtuvo el mejor desempeño en términos de F1-score durante la validación cruzada.
+- Evaluación mediante Accuracy, Precision, Recall, F1-score, curvas ROC y matrices de confusión.
 
 ## 👨‍💻 Autor
 
-**Oswaldo Bueno**  
-- Estudiante de Ciencia de Datos
+**Oswaldo Bueno Rivera**  
 - E-mail: oswaldo.bueno@cimat.mx
 
-## 📄 Licencia
-
-Este proyecto es con fines educativos como parte del curso de Ciencia de Datos.
-
----
-
-**⭐ Si este proyecto te resulta útil, no olvides darle una estrella al repositorio!**
